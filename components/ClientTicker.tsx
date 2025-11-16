@@ -2,12 +2,13 @@
 
 import React, { useEffect, useState, useRef } from "react";
 import type { PredictionRaw, HistoryRaw, Prediction, HistoryItem } from "../types/api";
-import { Chart as ChartJS, LineElement, PointElement, LinearScale, Title, CategoryScale, Tooltip } from "chart.js";
-import { Line } from "react-chartjs-2";
 import Select from "./ui/Select";
 import Card from "./ui/Card";
+import CustomGraph from "./CustomGraph";
+import { Calendar } from "./ui/calendar";
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover"; 
+import { Button } from "./ui/button";
 
-ChartJS.register(LineElement, PointElement, LinearScale, Title, CategoryScale, Tooltip);
 
 type Pred = { date: string; value: number };
 type Hist = { date: string; close: number };
@@ -51,6 +52,11 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
 
     const [startYear, setStartYear] = useState<string | "all">(() => (yearsFromData.length ? yearsFromData[0] : "all"));
     const [endYear, setEndYear] = useState<string | "all">(() => (yearsFromData.length ? yearsFromData[yearsFromData.length - 1] : "all"));
+    
+    // Calendar date range selection
+    const [startDate, setStartDate] = useState<Date | undefined>(undefined);
+    const [endDate, setEndDate] = useState<Date | undefined>(undefined);
+    const [useCalendar, setUseCalendar] = useState(false);
 
     // Keep selects in sync when data changes
     useEffect(() => {
@@ -89,6 +95,19 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
     // Filter functions by selected year range
     const inRange = (dateStr: string, s: string | "all", e: string | "all") => {
         if (!dateStr) return false;
+        
+        // If using calendar dates, filter by actual dates
+        if (useCalendar && (startDate || endDate)) {
+            const dateParts = dateStr.split("-");
+            if (dateParts.length < 3) return false;
+            const itemDate = new Date(parseInt(dateParts[0]), parseInt(dateParts[1]) - 1, parseInt(dateParts[2]));
+            
+            if (startDate && itemDate < startDate) return false;
+            if (endDate && itemDate > endDate) return false;
+            return true;
+        }
+        
+        // Otherwise use year-based filtering
         if (s === "all" && e === "all") return true;
         const y = dateStr.slice(0, 4);
         if (!y) return false;
@@ -100,119 +119,8 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
     const filteredHistory = history.filter((h) => inRange(h.date, startYear, endYear));
     const filteredPreds = preds.filter((p) => inRange(p.date, startYear, endYear));
 
-    // Separate labels for each series so each chart focuses on its own timeline
-    const historyLabels = Array.from(new Set(filteredHistory.map((h) => h.date))).filter(Boolean).sort();
-    const predsDates = Array.from(new Set(filteredPreds.map((p) => p.date))).filter(Boolean).sort();
-
-    // aggregate predictions per target date (avg, min, max) to avoid flat duplicate lines
-    type AggPred = { date: string; avg: number | null; min: number | null; max: number | null; count: number };
-    const aggregatedPreds: AggPred[] = predsDates.map((d) => {
-        const vals = filteredPreds.map((p) => (p.date === d && p.value != null ? p.value : null)).filter((v) => v != null) as number[];
-        if (!vals.length) return { date: d, avg: null, min: null, max: null, count: 0 };
-        const sum = vals.reduce((s, x) => s + x, 0);
-        const avg = sum / vals.length;
-        const min = Math.min(...vals);
-        const max = Math.max(...vals);
-        return { date: d, avg, min, max, count: vals.length };
-    });
-
-    const predsLabelsAgg = aggregatedPreds.map((a) => a.date);
-
-    const historyChartData = {
-        labels: historyLabels,
-        datasets: [
-            {
-                label: `${ticker} Close`,
-                data: historyLabels.map((d) => {
-                    const item = filteredHistory.find((h) => h.date === d);
-                    return item ? item.close : null;
-                }),
-                borderColor: "#111827",
-                backgroundColor: "rgba(17,24,39,0.06)",
-                tension: 0.2,
-            },
-        ],
-    };
-
-    const predsChartData = {
-        labels: predsLabelsAgg,
-        datasets: [
-            // average line
-            {
-                label: `Prediction (avg) (${ticker})`,
-                data: aggregatedPreds.map((a) => a.avg),
-                borderColor: "#065f46",
-                backgroundColor: "rgba(6,95,70,0.06)",
-                tension: 0.2,
-                pointRadius: 3,
-            },
-            // min line (dashed)
-            {
-                label: `Prediction (min)`,
-                data: aggregatedPreds.map((a) => a.min),
-                borderColor: "#0ea5a4",
-                borderDash: [6, 4],
-                tension: 0.2,
-                pointRadius: 0,
-            },
-            // max line (dashed)
-            {
-                label: `Prediction (max)`,
-                data: aggregatedPreds.map((a) => a.max),
-                borderColor: "#bfdbfe",
-                borderDash: [6, 4],
-                tension: 0.2,
-                pointRadius: 0,
-            },
-            // optional: raw points (low opacity)
-            {
-                label: `Prediction (raw)`,
-                data: predsLabelsAgg.map((d) => {
-                    // flatten raw points for that date; keep first one for scatter (or null)
-                    const raw = filteredPreds.find((p) => p.date === d && p.value != null);
-                    return raw ? raw.value : null;
-                }),
-                borderColor: "rgba(6,95,70,0.0)",
-                backgroundColor: "rgba(6,95,70,0.12)",
-                showLine: false,
-                pointRadius: 2,
-            },
-        ],
-    };
-
-    // refs to charts for exporting images
-    const historyChartRef = useRef<ChartJS | null>(null);
-    const predsChartRef = useRef<ChartJS | null>(null);
-
-    // Chart options with simplified tick formatting and improved tooltips
-    const commonOptions = {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-            legend: { display: true },
-            tooltip: { mode: "index", intersect: false },
-        },
-        scales: {
-            x: {
-                ticks: {
-                    callback: function (value: any, index: number, ticks: any) {
-                        // value is an index into labels
-                        const label = (this as any).chart.data.labels?.[value] as string | undefined;
-                        if (!label) return "";
-                        // show year only if label is start of year else show MM-DD
-                        const year = label.slice(0, 4);
-                        const monthDay = label.slice(5);
-                        if (monthDay === "01-01") return year;
-                        // show short month-day for readability
-                        return monthDay;
-                    },
-                },
-            },
-        },
-    };
-
-    const historyOptions = { ...commonOptions };
-    const predsOptions = { ...commonOptions };
+    // refs to graphs for exporting images
+    const historyGraphRef = useRef<HTMLDivElement | null>(null);
 
     // Preset buttons: 1Y, 5Y, All
     const latestYear = yearsFromData.length ? yearsFromData[yearsFromData.length - 1] : null;
@@ -248,17 +156,28 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
     }
 
     // Export chart PNG
-    function downloadChartImage(chartRef: React.RefObject<any>, filename: string) {
-        const chart = chartRef.current as any;
-        const instance = chart?.chartInstance || chart?.instance || chart?.chart;
-        // react-chartjs-2 exposes the Chart instance under different props depending on version
-        const chartObj = instance || chart?.getChart?.();
-        if (!chartObj || !chartObj.toBase64Image) return;
-        const url = chartObj.toBase64Image();
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = filename;
-        a.click();
+    function downloadChartImage(chartRef: React.RefObject<HTMLDivElement>, filename: string) {
+        const svg = chartRef.current?.querySelector("svg") as SVGElement;
+        if (!svg) return;
+
+        // Create canvas from SVG
+        const canvas = document.createElement("canvas");
+        const ctx = canvas.getContext("2d");
+        if (!ctx) return;
+
+        const svgString = new XMLSerializer().serializeToString(svg);
+        const img = new Image();
+        img.onload = () => {
+            canvas.width = img.width;
+            canvas.height = img.height;
+            ctx.drawImage(img, 0, 0);
+            const url = canvas.toDataURL("image/png");
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = filename;
+            a.click();
+        };
+        img.src = "data:image/svg+xml;base64," + btoa(svgString);
     }
 
     return (
@@ -272,43 +191,99 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
             </div>
 
             {/* Timeframe selector bar */}
-            <div className="flex items-center gap-3">
-                <span className="text-sm font-medium">Periodo:</span>
-                <Select value={startYear} onChange={(v) => setStartYear(v as string)} options={["all", ...yearsFromData]} />
-                <span className="text-sm">—</span>
-                <Select value={endYear} onChange={(v) => setEndYear(v as string)} options={["all", ...yearsFromData]} />
-                <div className="ml-4 text-sm text-zinc-500">Filtrar por año (desde / hasta)</div>
-                <div className="ml-4 flex items-center gap-2">
-                    <button onClick={() => applyPreset("1y")} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">1Y</button>
-                    <button onClick={() => applyPreset("5y")} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">5Y</button>
-                    <button onClick={() => applyPreset("all")} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">All</button>
+            <div className="space-y-3">
+                <div className="flex items-center gap-3">
+                    <span className="text-sm font-medium">Periodo:</span>
+                    <Button 
+                        variant={useCalendar ? "default" : "outline"}
+                        size="sm"
+                        onClick={() => setUseCalendar(!useCalendar)}
+                    >
+                        📅 {useCalendar ? "Calendario" : "Año"}
+                    </Button>
                 </div>
+
+                {useCalendar ? (
+                    // Calendar Date Range Picker
+                    <div className="flex items-center gap-4 p-3 bg-zinc-50 rounded-lg border">
+                        <div className="flex items-center gap-2">
+                            <span className="text-xs font-medium">Desde:</span>
+                            <Popover>
+                                <PopoverTrigger asChild>
+                                    <Button variant="outline" size="sm" className="w-32">
+                                        {startDate ? startDate.toLocaleDateString() : "Seleccionar"}
+                                    </Button>
+                                </PopoverTrigger>
+                                <PopoverContent className="w-auto p-0">
+                                    <Calendar
+                                        mode="single"
+                                        selected={startDate}
+                                        onSelect={setStartDate}
+                                        disabled={(date) => endDate ? date > endDate : false}
+                                    />
+                                </PopoverContent>
+                            </Popover>
+                        </div>
+                        
+                        <span className="text-sm text-zinc-400">—</span>
+                        
+                        <div className="flex items-center gap-2">
+                            <span className="text-xs font-medium">Hasta:</span>
+                            <Popover>
+                                <PopoverTrigger asChild>
+                                    <Button variant="outline" size="sm" className="w-32">
+                                        {endDate ? endDate.toLocaleDateString() : "Seleccionar"}
+                                    </Button>
+                                </PopoverTrigger>
+                                <PopoverContent className="w-auto p-0">
+                                    <Calendar
+                                        mode="single"
+                                        selected={endDate}
+                                        onSelect={setEndDate}
+                                        disabled={(date) => startDate ? date < startDate : false}
+                                    />
+                                </PopoverContent>
+                            </Popover>
+                        </div>
+                        
+                        <Button 
+                            variant="ghost" 
+                            size="sm"
+                            onClick={() => {
+                                setStartDate(undefined);
+                                setEndDate(undefined);
+                            }}
+                        >
+                            Limpiar
+                        </Button>
+                    </div>
+                ) : (
+                    // Year-based filtering
+                    <div className="flex items-center gap-3">
+                        <Select value={startYear} onChange={(v) => setStartYear(v as string)} options={["all", ...yearsFromData]} />
+                        <span className="text-sm">—</span>
+                        <Select value={endYear} onChange={(v) => setEndYear(v as string)} options={["all", ...yearsFromData]} />
+                        <div className="ml-4 text-sm text-zinc-500">Filtrar por año</div>
+                        <div className="ml-4 flex items-center gap-2">
+                            <button onClick={() => applyPreset("1y")} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">1Y</button>
+                            <button onClick={() => applyPreset("5y")} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">5Y</button>
+                            <button onClick={() => applyPreset("all")} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">All</button>
+                        </div>
+                    </div>
+                )}
             </div>
 
             <div className="flex flex-col w-full gap-6">
                 <Card className="w-full">
                     <div className="flex items-center justify-between">
-                        <h3 className="mb-2 text-sm font-semibold">Histórico (gráfico)</h3>
+                        <h3 className="mb-2 text-sm font-semibold">Histórico y Predicciones (gráfico)</h3>
                         <div className="flex items-center gap-2">
-                            <button onClick={() => downloadChartImage(historyChartRef as any, `${ticker}-history.png`)} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">Export PNG</button>
+                            <button onClick={() => downloadChartImage(historyGraphRef as any, `${ticker}-combined.png`)} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">Export PNG</button>
                             <button onClick={() => downloadCSV(filteredHistory.map(h => ({ date: h.date, close: h.close })), `${ticker}-history.csv`)} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">Export CSV</button>
                         </div>
                     </div>
-                    <div className="h-60 w-full">
-                        <Line className="w-full" ref={historyChartRef as any} data={historyChartData} options={historyOptions as any} />
-                    </div>
-                </Card>
-
-                <Card>
-                    <div className="flex items-center justify-between">
-                        <h3 className="mb-2 text-sm font-semibold">Predicciones (gráfico)</h3>
-                        <div className="flex items-center gap-2">
-                            <button onClick={() => downloadChartImage(predsChartRef as any, `${ticker}-preds.png`)} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">Export PNG</button>
-                            <button onClick={() => downloadCSV(filteredPreds.map(p => ({ date: p.date, value: p.value })), `${ticker}-preds.csv`)} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">Export CSV</button>
-                        </div>
-                    </div>
-                    <div className="h-60">
-                        <Line ref={predsChartRef as any} data={predsChartData} options={predsOptions as any} />
+                    <div ref={historyGraphRef} className="w-full flex justify-center">
+                        <CustomGraph history={filteredHistory} predictions={filteredPreds} ticker={ticker}  />
                     </div>
                 </Card>
             </div>
