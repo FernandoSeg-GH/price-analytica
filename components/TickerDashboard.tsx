@@ -25,7 +25,6 @@ export default async function TickerDashboard(_: Props) {
         <div className="mx-auto w-full max-w-4xl py-12">
             <h2 className="mb-6 text-2xl font-semibold">Dashboard de Activos</h2>
             {/* ClientTicker will fetch on selection changes */}
-            {/* @ts-ignore Server -> Client props */}
             <ClientTicker {...clientProps} />
         </div>
     );

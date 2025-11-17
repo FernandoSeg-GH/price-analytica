@@ -1,0 +1,3122 @@
+[
+  {
+    "Date": "2025-06-10",
+    "prediction_lstm": 603.0800170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-10",
+    "prediction_lstm": 603.0800170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-10",
+    "prediction_lstm": 603.0800170898438,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-10",
+    "prediction_lstm": 603.0800170898438,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-11",
+    "prediction_lstm": 601.3599853515625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-11",
+    "prediction_lstm": 601.3599853515625,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-11",
+    "prediction_lstm": 601.3599853515625,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-11",
+    "prediction_lstm": 601.3599853515625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-12",
+    "prediction_lstm": 603.75,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-12",
+    "prediction_lstm": 603.75,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-12",
+    "prediction_lstm": 603.75,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-12",
+    "prediction_lstm": 603.75,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-13",
+    "prediction_lstm": 597.0,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-13",
+    "prediction_lstm": 597.0,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-13",
+    "prediction_lstm": 597.0,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-13",
+    "prediction_lstm": 597.0,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-16",
+    "prediction_lstm": 602.6799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-16",
+    "prediction_lstm": 602.6799926757812,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-16",
+    "prediction_lstm": 602.6799926757812,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-16",
+    "prediction_lstm": 602.6799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-17",
+    "prediction_lstm": 597.530029296875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-17",
+    "prediction_lstm": 597.530029296875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-17",
+    "prediction_lstm": 597.530029296875,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-17",
+    "prediction_lstm": 597.530029296875,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-18",
+    "prediction_lstm": 597.4400024414062,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-18",
+    "prediction_lstm": 597.4400024414062,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-18",
+    "prediction_lstm": 597.4400024414062,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-18",
+    "prediction_lstm": 597.4400024414062,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-19",
+    "prediction_lstm": 594.280029296875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-19",
+    "prediction_lstm": 594.280029296875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-19",
+    "prediction_lstm": 594.280029296875,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-19",
+    "prediction_lstm": 594.280029296875,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-20",
+    "prediction_lstm": 600.1500244140625,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-20",
+    "prediction_lstm": 600.1500244140625,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-20",
+    "prediction_lstm": 600.1500244140625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-20",
+    "prediction_lstm": 600.1500244140625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-23",
+    "prediction_lstm": 606.780029296875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-23",
+    "prediction_lstm": 606.780029296875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-23",
+    "prediction_lstm": 606.780029296875,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-23",
+    "prediction_lstm": 606.780029296875,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-24",
+    "prediction_lstm": 607.1199951171875,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-24",
+    "prediction_lstm": 607.1199951171875,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-24",
+    "prediction_lstm": 607.1199951171875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-24",
+    "prediction_lstm": 607.1199951171875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-25",
+    "prediction_lstm": 611.8699951171875,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-25",
+    "prediction_lstm": 611.8699951171875,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-25",
+    "prediction_lstm": 611.8699951171875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-25",
+    "prediction_lstm": 611.8699951171875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-26",
+    "prediction_lstm": 614.9099731445312,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-26",
+    "prediction_lstm": 614.9099731445312,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-26",
+    "prediction_lstm": 614.9099731445312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-26",
+    "prediction_lstm": 614.9099731445312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-27",
+    "prediction_lstm": 617.8499755859375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-27",
+    "prediction_lstm": 617.8499755859375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-27",
+    "prediction_lstm": 617.8499755859375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-27",
+    "prediction_lstm": 617.8499755859375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-30",
+    "prediction_lstm": 617.6500244140625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-30",
+    "prediction_lstm": 617.6500244140625,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-30",
+    "prediction_lstm": 617.6500244140625,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-06-30",
+    "prediction_lstm": 617.6500244140625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-01",
+    "prediction_lstm": 620.4500122070312,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-01",
+    "prediction_lstm": 620.4500122070312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-01",
+    "prediction_lstm": 620.4500122070312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-01",
+    "prediction_lstm": 620.4500122070312,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-02",
+    "prediction_lstm": 625.3400268554688,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-02",
+    "prediction_lstm": 625.3400268554688,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-02",
+    "prediction_lstm": 625.3400268554688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-02",
+    "prediction_lstm": 625.3400268554688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-03",
+    "prediction_lstm": 620.6799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-03",
+    "prediction_lstm": 620.6799926757812,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-03",
+    "prediction_lstm": 620.6799926757812,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-03",
+    "prediction_lstm": 620.6799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-04",
+    "prediction_lstm": 620.3400268554688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-04",
+    "prediction_lstm": 620.3400268554688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-04",
+    "prediction_lstm": 620.3400268554688,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-04",
+    "prediction_lstm": 620.3400268554688,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-07",
+    "prediction_lstm": 624.0599975585938,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-07",
+    "prediction_lstm": 624.0599975585938,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-07",
+    "prediction_lstm": 624.0599975585938,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-07",
+    "prediction_lstm": 624.0599975585938,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-08",
+    "prediction_lstm": 625.8200073242188,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-08",
+    "prediction_lstm": 625.8200073242188,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-08",
+    "prediction_lstm": 625.8200073242188,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-08",
+    "prediction_lstm": 625.8200073242188,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-09",
+    "prediction_lstm": 623.6199951171875,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-09",
+    "prediction_lstm": 623.6199951171875,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-09",
+    "prediction_lstm": 623.6199951171875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-09",
+    "prediction_lstm": 623.6199951171875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-10",
+    "prediction_lstm": 624.8099975585938,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-10",
+    "prediction_lstm": 624.8099975585938,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-10",
+    "prediction_lstm": 624.8099975585938,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-10",
+    "prediction_lstm": 624.8099975585938,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-11",
+    "prediction_lstm": 622.1400146484375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-11",
+    "prediction_lstm": 622.1400146484375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-11",
+    "prediction_lstm": 622.1400146484375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-11",
+    "prediction_lstm": 622.1400146484375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-14",
+    "prediction_lstm": 624.219970703125,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-14",
+    "prediction_lstm": 624.219970703125,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-14",
+    "prediction_lstm": 624.219970703125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-14",
+    "prediction_lstm": 624.219970703125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-15",
+    "prediction_lstm": 628.0399780273438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-15",
+    "prediction_lstm": 628.0399780273438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-15",
+    "prediction_lstm": 628.0399780273438,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-15",
+    "prediction_lstm": 628.0399780273438,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-16",
+    "prediction_lstm": 627.5800170898438,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-16",
+    "prediction_lstm": 627.5800170898438,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-16",
+    "prediction_lstm": 627.5800170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-16",
+    "prediction_lstm": 627.5800170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-17",
+    "prediction_lstm": 628.77001953125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-17",
+    "prediction_lstm": 628.77001953125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-17",
+    "prediction_lstm": 628.77001953125,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-17",
+    "prediction_lstm": 628.77001953125,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-18",
+    "prediction_lstm": 628.8599853515625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-18",
+    "prediction_lstm": 628.8599853515625,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-18",
+    "prediction_lstm": 628.8599853515625,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-18",
+    "prediction_lstm": 628.8599853515625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-21",
+    "prediction_lstm": 634.2100219726562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-21",
+    "prediction_lstm": 634.2100219726562,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-21",
+    "prediction_lstm": 634.2100219726562,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-21",
+    "prediction_lstm": 634.2100219726562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-22",
+    "prediction_lstm": 634.4199829101562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-22",
+    "prediction_lstm": 634.4199829101562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-22",
+    "prediction_lstm": 634.4199829101562,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-22",
+    "prediction_lstm": 634.4199829101562,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-23",
+    "prediction_lstm": 637.0999755859375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-23",
+    "prediction_lstm": 637.0999755859375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-23",
+    "prediction_lstm": 637.0999755859375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-23",
+    "prediction_lstm": 637.0999755859375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-24",
+    "prediction_lstm": 636.9400024414062,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-24",
+    "prediction_lstm": 636.9400024414062,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-24",
+    "prediction_lstm": 636.9400024414062,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-24",
+    "prediction_lstm": 636.9400024414062,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-25",
+    "prediction_lstm": 635.260009765625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-25",
+    "prediction_lstm": 635.260009765625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-25",
+    "prediction_lstm": 635.260009765625,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-25",
+    "prediction_lstm": 635.260009765625,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-28",
+    "prediction_lstm": 634.4600219726562,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-28",
+    "prediction_lstm": 634.4600219726562,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-28",
+    "prediction_lstm": 634.4600219726562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-28",
+    "prediction_lstm": 634.4600219726562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-29",
+    "prediction_lstm": 632.0800170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-29",
+    "prediction_lstm": 632.0800170898438,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-29",
+    "prediction_lstm": 632.0800170898438,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-29",
+    "prediction_lstm": 632.0800170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-30",
+    "prediction_lstm": 621.719970703125,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-30",
+    "prediction_lstm": 621.719970703125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-30",
+    "prediction_lstm": 621.719970703125,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-30",
+    "prediction_lstm": 621.719970703125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-31",
+    "prediction_lstm": 631.1699829101562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-31",
+    "prediction_lstm": 631.1699829101562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-31",
+    "prediction_lstm": 631.1699829101562,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-07-31",
+    "prediction_lstm": 631.1699829101562,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-01",
+    "prediction_lstm": 627.969970703125,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-01",
+    "prediction_lstm": 627.969970703125,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-01",
+    "prediction_lstm": 627.969970703125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-01",
+    "prediction_lstm": 627.969970703125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-04",
+    "prediction_lstm": 632.780029296875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-04",
+    "prediction_lstm": 632.780029296875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-04",
+    "prediction_lstm": 632.780029296875,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-04",
+    "prediction_lstm": 632.780029296875,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-05",
+    "prediction_lstm": 632.25,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-05",
+    "prediction_lstm": 632.25,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-05",
+    "prediction_lstm": 632.25,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-05",
+    "prediction_lstm": 632.25,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-06",
+    "prediction_lstm": 637.1799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-06",
+    "prediction_lstm": 637.1799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-06",
+    "prediction_lstm": 637.1799926757812,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-06",
+    "prediction_lstm": 637.1799926757812,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-07",
+    "prediction_lstm": 635.9199829101562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-07",
+    "prediction_lstm": 635.9199829101562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-07",
+    "prediction_lstm": 635.9199829101562,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-07",
+    "prediction_lstm": 635.9199829101562,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-08",
+    "prediction_lstm": 642.6900024414062,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-08",
+    "prediction_lstm": 642.6900024414062,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-08",
+    "prediction_lstm": 642.6900024414062,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-08",
+    "prediction_lstm": 642.6900024414062,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-11",
+    "prediction_lstm": 644.8900146484375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-11",
+    "prediction_lstm": 644.8900146484375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-11",
+    "prediction_lstm": 644.8900146484375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-11",
+    "prediction_lstm": 644.8900146484375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-12",
+    "prediction_lstm": 644.9500122070312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-12",
+    "prediction_lstm": 644.9500122070312,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-12",
+    "prediction_lstm": 644.9500122070312,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-12",
+    "prediction_lstm": 644.9500122070312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-13",
+    "prediction_lstm": 643.4400024414062,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-13",
+    "prediction_lstm": 643.4400024414062,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-13",
+    "prediction_lstm": 643.4400024414062,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-13",
+    "prediction_lstm": 643.4400024414062,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-14",
+    "prediction_lstm": 643.2999877929688,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-14",
+    "prediction_lstm": 643.2999877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-14",
+    "prediction_lstm": 643.2999877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-14",
+    "prediction_lstm": 643.2999877929688,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-15",
+    "prediction_lstm": 639.8099975585938,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-15",
+    "prediction_lstm": 639.8099975585938,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-15",
+    "prediction_lstm": 639.8099975585938,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-15",
+    "prediction_lstm": 639.8099975585938,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-18",
+    "prediction_lstm": 638.1099853515625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-18",
+    "prediction_lstm": 638.1099853515625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-18",
+    "prediction_lstm": 638.1099853515625,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-18",
+    "prediction_lstm": 638.1099853515625,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-19",
+    "prediction_lstm": 635.5499877929688,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-19",
+    "prediction_lstm": 635.5499877929688,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-19",
+    "prediction_lstm": 635.5499877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-19",
+    "prediction_lstm": 635.5499877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-20",
+    "prediction_lstm": 645.3099975585938,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-20",
+    "prediction_lstm": 645.3099975585938,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-20",
+    "prediction_lstm": 645.3099975585938,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-20",
+    "prediction_lstm": 645.3099975585938,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-21",
+    "prediction_lstm": 642.469970703125,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-21",
+    "prediction_lstm": 642.469970703125,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-21",
+    "prediction_lstm": 642.469970703125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-21",
+    "prediction_lstm": 642.469970703125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-22",
+    "prediction_lstm": 645.1599731445312,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-22",
+    "prediction_lstm": 645.1599731445312,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-22",
+    "prediction_lstm": 645.1599731445312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-22",
+    "prediction_lstm": 645.1599731445312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-25",
+    "prediction_lstm": 646.6300048828125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-25",
+    "prediction_lstm": 646.6300048828125,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-25",
+    "prediction_lstm": 646.6300048828125,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-25",
+    "prediction_lstm": 646.6300048828125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-26",
+    "prediction_lstm": 648.9199829101562,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-26",
+    "prediction_lstm": 648.9199829101562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-26",
+    "prediction_lstm": 648.9199829101562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-26",
+    "prediction_lstm": 648.9199829101562,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-27",
+    "prediction_lstm": 645.0499877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-27",
+    "prediction_lstm": 645.0499877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-27",
+    "prediction_lstm": 645.0499877929688,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-27",
+    "prediction_lstm": 645.0499877929688,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-28",
+    "prediction_lstm": 640.27001953125,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-28",
+    "prediction_lstm": 640.27001953125,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-28",
+    "prediction_lstm": 640.27001953125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-28",
+    "prediction_lstm": 640.27001953125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-29",
+    "prediction_lstm": 643.739990234375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-29",
+    "prediction_lstm": 643.739990234375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-29",
+    "prediction_lstm": 643.739990234375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-08-29",
+    "prediction_lstm": 643.739990234375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-01",
+    "prediction_lstm": 649.1199951171875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-01",
+    "prediction_lstm": 649.1199951171875,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-01",
+    "prediction_lstm": 649.1199951171875,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-01",
+    "prediction_lstm": 649.1199951171875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-02",
+    "prediction_lstm": 647.239990234375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-02",
+    "prediction_lstm": 647.239990234375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-02",
+    "prediction_lstm": 647.239990234375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-02",
+    "prediction_lstm": 647.239990234375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-03",
+    "prediction_lstm": 648.8300170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-03",
+    "prediction_lstm": 648.8300170898438,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-03",
+    "prediction_lstm": 648.8300170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-03",
+    "prediction_lstm": 648.8300170898438,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-04",
+    "prediction_lstm": 650.3300170898438,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-04",
+    "prediction_lstm": 650.3300170898438,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-04",
+    "prediction_lstm": 650.3300170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-04",
+    "prediction_lstm": 650.3300170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-05",
+    "prediction_lstm": 652.2100219726562,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-05",
+    "prediction_lstm": 652.2100219726562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-05",
+    "prediction_lstm": 652.2100219726562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-05",
+    "prediction_lstm": 652.2100219726562,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-08",
+    "prediction_lstm": 657.6300048828125,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-08",
+    "prediction_lstm": 657.6300048828125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-08",
+    "prediction_lstm": 657.6300048828125,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-08",
+    "prediction_lstm": 657.6300048828125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-09",
+    "prediction_lstm": 657.4099731445312,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-09",
+    "prediction_lstm": 657.4099731445312,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-09",
+    "prediction_lstm": 657.4099731445312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-09",
+    "prediction_lstm": 657.4099731445312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-10",
+    "prediction_lstm": 660.9099731445312,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-10",
+    "prediction_lstm": 660.9099731445312,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-10",
+    "prediction_lstm": 660.9099731445312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-10",
+    "prediction_lstm": 660.9099731445312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-11",
+    "prediction_lstm": 660.0,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-11",
+    "prediction_lstm": 660.0,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-11",
+    "prediction_lstm": 660.0,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-11",
+    "prediction_lstm": 660.0,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-12",
+    "prediction_lstm": 659.1799926757812,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-12",
+    "prediction_lstm": 659.1799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-12",
+    "prediction_lstm": 659.1799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-12",
+    "prediction_lstm": 659.1799926757812,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-15",
+    "prediction_lstm": 662.260009765625,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-15",
+    "prediction_lstm": 662.260009765625,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-15",
+    "prediction_lstm": 662.260009765625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-15",
+    "prediction_lstm": 662.260009765625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-16",
+    "prediction_lstm": 663.7000122070312,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-16",
+    "prediction_lstm": 663.7000122070312,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-16",
+    "prediction_lstm": 663.7000122070312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-16",
+    "prediction_lstm": 663.7000122070312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-17",
+    "prediction_lstm": 666.8400268554688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-17",
+    "prediction_lstm": 666.8400268554688,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-17",
+    "prediction_lstm": 666.8400268554688,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-17",
+    "prediction_lstm": 666.8400268554688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-18",
+    "prediction_lstm": 663.2100219726562,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-18",
+    "prediction_lstm": 663.2100219726562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-18",
+    "prediction_lstm": 663.2100219726562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-18",
+    "prediction_lstm": 663.2100219726562,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-19",
+    "prediction_lstm": 661.0999755859375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-19",
+    "prediction_lstm": 661.0999755859375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-19",
+    "prediction_lstm": 661.0999755859375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-19",
+    "prediction_lstm": 661.0999755859375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-22",
+    "prediction_lstm": 658.0499877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-22",
+    "prediction_lstm": 658.0499877929688,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-22",
+    "prediction_lstm": 658.0499877929688,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-22",
+    "prediction_lstm": 658.0499877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-23",
+    "prediction_lstm": 661.8200073242188,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-23",
+    "prediction_lstm": 661.8200073242188,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-23",
+    "prediction_lstm": 661.8200073242188,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-23",
+    "prediction_lstm": 661.8200073242188,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-24",
+    "prediction_lstm": 663.6799926757812,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-24",
+    "prediction_lstm": 663.6799926757812,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-24",
+    "prediction_lstm": 663.6799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-24",
+    "prediction_lstm": 663.6799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-25",
+    "prediction_lstm": 666.1799926757812,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-25",
+    "prediction_lstm": 666.1799926757812,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-25",
+    "prediction_lstm": 666.1799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-25",
+    "prediction_lstm": 666.1799926757812,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-26",
+    "prediction_lstm": 668.4500122070312,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-26",
+    "prediction_lstm": 668.4500122070312,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-26",
+    "prediction_lstm": 668.4500122070312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-26",
+    "prediction_lstm": 668.4500122070312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-29",
+    "prediction_lstm": 669.219970703125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-29",
+    "prediction_lstm": 669.219970703125,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-29",
+    "prediction_lstm": 669.219970703125,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-29",
+    "prediction_lstm": 669.219970703125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-30",
+    "prediction_lstm": 669.2100219726562,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-30",
+    "prediction_lstm": 669.2100219726562,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-30",
+    "prediction_lstm": 669.2100219726562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-09-30",
+    "prediction_lstm": 669.2100219726562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-01",
+    "prediction_lstm": 671.6099853515625,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-01",
+    "prediction_lstm": 671.6099853515625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-01",
+    "prediction_lstm": 671.6099853515625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-01",
+    "prediction_lstm": 671.6099853515625,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-02",
+    "prediction_lstm": 669.1199951171875,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-02",
+    "prediction_lstm": 669.1199951171875,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-02",
+    "prediction_lstm": 669.1199951171875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-02",
+    "prediction_lstm": 669.1199951171875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-03",
+    "prediction_lstm": 673.1099853515625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-03",
+    "prediction_lstm": 673.1099853515625,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-03",
+    "prediction_lstm": 673.1099853515625,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-03",
+    "prediction_lstm": 673.1099853515625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-06",
+    "prediction_lstm": 671.1599731445312,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-06",
+    "prediction_lstm": 671.1599731445312,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-06",
+    "prediction_lstm": 671.1599731445312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-06",
+    "prediction_lstm": 671.1599731445312,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-07",
+    "prediction_lstm": 653.02001953125,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-07",
+    "prediction_lstm": 653.02001953125,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-07",
+    "prediction_lstm": 653.02001953125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-07",
+    "prediction_lstm": 653.02001953125,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-08",
+    "prediction_lstm": 663.0399780273438,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-08",
+    "prediction_lstm": 663.0399780273438,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-08",
+    "prediction_lstm": 663.0399780273438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-08",
+    "prediction_lstm": 663.0399780273438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-09",
+    "prediction_lstm": 662.22998046875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-09",
+    "prediction_lstm": 662.22998046875,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-09",
+    "prediction_lstm": 662.22998046875,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-09",
+    "prediction_lstm": 662.22998046875,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-10",
+    "prediction_lstm": 665.1699829101562,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-10",
+    "prediction_lstm": 665.1699829101562,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-10",
+    "prediction_lstm": 665.1699829101562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-10",
+    "prediction_lstm": 665.1699829101562,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-13",
+    "prediction_lstm": 660.6400146484375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-13",
+    "prediction_lstm": 660.6400146484375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-13",
+    "prediction_lstm": 660.6400146484375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-13",
+    "prediction_lstm": 660.6400146484375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-14",
+    "prediction_lstm": 664.3900146484375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-14",
+    "prediction_lstm": 664.3900146484375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-14",
+    "prediction_lstm": 664.3900146484375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-14",
+    "prediction_lstm": 664.3900146484375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-15",
+    "prediction_lstm": 671.2999877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-15",
+    "prediction_lstm": 671.2999877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-15",
+    "prediction_lstm": 671.2999877929688,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-15",
+    "prediction_lstm": 671.2999877929688,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-16",
+    "prediction_lstm": 671.2899780273438,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-16",
+    "prediction_lstm": 671.2899780273438,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-16",
+    "prediction_lstm": 671.2899780273438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-16",
+    "prediction_lstm": 671.2899780273438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-17",
+    "prediction_lstm": 667.7999877929688,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-17",
+    "prediction_lstm": 667.7999877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-17",
+    "prediction_lstm": 667.7999877929688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-17",
+    "prediction_lstm": 667.7999877929688,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-20",
+    "prediction_lstm": 671.760009765625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-20",
+    "prediction_lstm": 671.760009765625,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-20",
+    "prediction_lstm": 671.760009765625,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-20",
+    "prediction_lstm": 671.760009765625,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-21",
+    "prediction_lstm": 677.25,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-21",
+    "prediction_lstm": 677.25,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-21",
+    "prediction_lstm": 677.25,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-21",
+    "prediction_lstm": 677.25,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-22",
+    "prediction_lstm": 685.239990234375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-22",
+    "prediction_lstm": 685.239990234375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-22",
+    "prediction_lstm": 685.239990234375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-22",
+    "prediction_lstm": 685.239990234375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-23",
+    "prediction_lstm": 687.0599975585938,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-23",
+    "prediction_lstm": 687.0599975585938,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-23",
+    "prediction_lstm": 687.0599975585938,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-23",
+    "prediction_lstm": 687.0599975585938,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-24",
+    "prediction_lstm": 687.3900146484375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-24",
+    "prediction_lstm": 687.3900146484375,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-24",
+    "prediction_lstm": 687.3900146484375,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-24",
+    "prediction_lstm": 687.3900146484375,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-27",
+    "prediction_lstm": 679.8300170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-27",
+    "prediction_lstm": 679.8300170898438,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-27",
+    "prediction_lstm": 679.8300170898438,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-27",
+    "prediction_lstm": 679.8300170898438,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-28",
+    "prediction_lstm": 696.3191527883755,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-28",
+    "prediction_lstm": 666.1613556758239,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-28",
+    "prediction_lstm": 700.9572194527136,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-28",
+    "prediction_lstm": 682.1181443827227,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-29",
+    "prediction_lstm": 706.3430914563214,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-29",
+    "prediction_lstm": 662.2613447071781,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-29",
+    "prediction_lstm": 700.395655336426,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-29",
+    "prediction_lstm": 682.3832272116415,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-30",
+    "prediction_lstm": 704.857844572136,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-30",
+    "prediction_lstm": 655.6974931297664,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-30",
+    "prediction_lstm": 712.5914614567155,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-30",
+    "prediction_lstm": 681.8152912810474,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-31",
+    "prediction_lstm": 681.0725910701076,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-31",
+    "prediction_lstm": 648.715750333351,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-31",
+    "prediction_lstm": 709.4080876754306,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-10-31",
+    "prediction_lstm": 719.0714430687076,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-03",
+    "prediction_lstm": 725.5723058071017,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-03",
+    "prediction_lstm": 641.9310347829305,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-03",
+    "prediction_lstm": 713.935991044229,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-03",
+    "prediction_lstm": 680.2709707690447,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-04",
+    "prediction_lstm": 718.4127663608815,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-04",
+    "prediction_lstm": 635.3967392116392,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-04",
+    "prediction_lstm": 732.0373174939159,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-04",
+    "prediction_lstm": 679.4307741223311,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-05",
+    "prediction_lstm": 722.8334236503288,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-05",
+    "prediction_lstm": 629.0678386906729,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-05",
+    "prediction_lstm": 738.450894053196,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-05",
+    "prediction_lstm": 678.5651286028151,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-06",
+    "prediction_lstm": 677.6840909294624,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-06",
+    "prediction_lstm": 744.806356595247,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-06",
+    "prediction_lstm": 727.198193219112,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-06",
+    "prediction_lstm": 622.9075225578636,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-07",
+    "prediction_lstm": 731.5071518360783,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-07",
+    "prediction_lstm": 751.0982545319275,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-07",
+    "prediction_lstm": 676.7939177633089,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-07",
+    "prediction_lstm": 616.8913399354205,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-10",
+    "prediction_lstm": 735.7597621192981,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-10",
+    "prediction_lstm": 675.8979869336254,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-10",
+    "prediction_lstm": 757.3219817324134,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-10",
+    "prediction_lstm": 611.0011349910128,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-11",
+    "prediction_lstm": 674.9985631214004,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-11",
+    "prediction_lstm": 739.955486686842,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-11",
+    "prediction_lstm": 763.4730088347278,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-11",
+    "prediction_lstm": 605.2228974100508,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-12",
+    "prediction_lstm": 674.0967210904928,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-12",
+    "prediction_lstm": 744.0933275436983,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-12",
+    "prediction_lstm": 769.5473438588233,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-12",
+    "prediction_lstm": 599.5459179383688,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-13",
+    "prediction_lstm": 673.1930749916792,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-13",
+    "prediction_lstm": 748.1722866948548,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-13",
+    "prediction_lstm": 775.5413786688878,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-13",
+    "prediction_lstm": 593.9623277691426,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-14",
+    "prediction_lstm": 588.4670601584658,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-14",
+    "prediction_lstm": 672.2880470536184,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-14",
+    "prediction_lstm": 752.1911358387588,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-14",
+    "prediction_lstm": 781.4517354356503,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-17",
+    "prediction_lstm": 583.056199895138,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-17",
+    "prediction_lstm": 671.381752429581,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-17",
+    "prediction_lstm": 756.148646673857,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-17",
+    "prediction_lstm": 787.274959560993,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-18",
+    "prediction_lstm": 793.0082873664214,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-18",
+    "prediction_lstm": 577.7269449162413,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-18",
+    "prediction_lstm": 670.4743446572611,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-18",
+    "prediction_lstm": 760.0438212051376,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-19",
+    "prediction_lstm": 572.477222462905,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-19",
+    "prediction_lstm": 798.6488016357471,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-19",
+    "prediction_lstm": 763.8755078998947,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-19",
+    "prediction_lstm": 669.5657469678117,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-20",
+    "prediction_lstm": 567.3052284672231,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-20",
+    "prediction_lstm": 804.1939689970168,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-20",
+    "prediction_lstm": 767.6424016877281,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-20",
+    "prediction_lstm": 668.6561512833505,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-21",
+    "prediction_lstm": 562.2092356301364,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-21",
+    "prediction_lstm": 667.7454040661833,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-21",
+    "prediction_lstm": 809.6416399225127,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-21",
+    "prediction_lstm": 771.343581342473,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-24",
+    "prediction_lstm": 666.83350531631,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-24",
+    "prediction_lstm": 774.9781256379647,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-24",
+    "prediction_lstm": 557.1876318058567,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-24",
+    "prediction_lstm": 814.9892810402816,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-25",
+    "prediction_lstm": 665.9204550337308,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-25",
+    "prediction_lstm": 778.5451133480383,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-25",
+    "prediction_lstm": 820.2354337422294,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-25",
+    "prediction_lstm": 552.2388816174425,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-26",
+    "prediction_lstm": 665.0061764495986,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-26",
+    "prediction_lstm": 547.3612193814115,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-26",
+    "prediction_lstm": 825.3781788071792,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-26",
+    "prediction_lstm": 782.0439303219173,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-27",
+    "prediction_lstm": 542.5532632585164,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-27",
+    "prediction_lstm": 830.4162111647311,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-27",
+    "prediction_lstm": 664.0907463327603,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-27",
+    "prediction_lstm": 785.473808871131,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-28",
+    "prediction_lstm": 537.8132859496982,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-28",
+    "prediction_lstm": 663.1739727610984,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-28",
+    "prediction_lstm": 835.3480722067907,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-11-28",
+    "prediction_lstm": 788.8344419202913,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-01",
+    "prediction_lstm": 662.2558941190364,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-01",
+    "prediction_lstm": 533.1399440001333,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-01",
+    "prediction_lstm": 840.1730710137344,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-01",
+    "prediction_lstm": 792.1251385497744,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-02",
+    "prediction_lstm": 795.3457452218863,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-02",
+    "prediction_lstm": 528.5316636484567,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-02",
+    "prediction_lstm": 844.8900560528564,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-02",
+    "prediction_lstm": 661.3364720221507,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-03",
+    "prediction_lstm": 523.9870246709979,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-03",
+    "prediction_lstm": 660.4156297015943,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-03",
+    "prediction_lstm": 798.4959548612387,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-03",
+    "prediction_lstm": 849.4987202487682,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-04",
+    "prediction_lstm": 519.5046836129331,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-04",
+    "prediction_lstm": 659.4933287729436,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-04",
+    "prediction_lstm": 853.9986029883876,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-04",
+    "prediction_lstm": 801.5756906989845,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-05",
+    "prediction_lstm": 858.3895507340203,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-05",
+    "prediction_lstm": 515.0832202505917,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-05",
+    "prediction_lstm": 804.5849527351238,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-05",
+    "prediction_lstm": 658.5696076206223,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-08",
+    "prediction_lstm": 657.644235938089,
+    "predict_date_lstm": "2025-10-31",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-08",
+    "prediction_lstm": 510.72148305126757,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-08",
+    "prediction_lstm": 862.6716402545135,
+    "predict_date_lstm": "2025-11-06",
+    "Ticker": "SPY"
+  },
+  {
+    "Date": "2025-12-08",
+    "prediction_lstm": 807.5239712761977,
+    "predict_date_lstm": "2025-11-11",
+    "Ticker": "SPY"
+  }
+]

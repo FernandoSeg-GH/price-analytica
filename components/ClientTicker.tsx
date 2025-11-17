@@ -2,16 +2,13 @@
 
 import React, { useEffect, useState, useRef } from "react";
 import type { PredictionRaw, HistoryRaw, Prediction, HistoryItem } from "../types/api";
-import Select from "./ui/Select";
-import Card from "./ui/Card";
+import Select from "./ui/select";
+import Card from "./ui/card";
 import CustomGraph from "./CustomGraph";
 import { Calendar } from "./ui/calendar";
-import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover"; 
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { Button } from "./ui/button";
 
-
-type Pred = { date: string; value: number };
-type Hist = { date: string; close: number };
 
 export type ClientTickerProps = {
     initialTickers: string[];
@@ -24,21 +21,40 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
     // normalize incoming props (API returns different key names)
     const normalizePreds = (raw: PredictionRaw[]): Prediction[] => {
         if (!raw || !Array.isArray(raw)) return [];
-        return raw.map((p) => ({ date: p.predict_date_lstm || p.predict_date || p.Date || "", value: p.prediction_lstm ?? p.prediction ?? null }));
+        const mapped = raw.map((p) => ({
+            date: p.predict_date_lstm || p.predict_date || p.Date || "",
+            value: p.prediction_lstm ?? p.prediction ?? null
+        }));
+
+        // Remove duplicates by date (keep last occurrence)
+        const seen = new Map<string, Prediction>();
+        mapped.forEach(item => {
+            if (item.date) seen.set(item.date, item);
+        });
+
+        return Array.from(seen.values()).sort((a, b) => a.date.localeCompare(b.date));
     };
 
     const normalizeHistory = (raw: HistoryRaw[]): HistoryItem[] => {
         if (!raw || !Array.isArray(raw)) return [];
-        return raw.map((h) => {
+        const mapped = raw.map((h) => {
             const maybe = h as unknown as { date?: string; close?: number };
             return { date: h.Date || maybe.date || "", close: h.Close ?? maybe.close ?? null };
         });
+
+        // Remove duplicates by date (keep last occurrence)
+        const seen = new Map<string, HistoryItem>();
+        mapped.forEach(item => {
+            if (item.date) seen.set(item.date, item);
+        });
+
+        return Array.from(seen.values()).sort((a, b) => a.date.localeCompare(b.date));
     };
 
     const initialTickersArray = Array.isArray(initialTickers)
         ? initialTickers
         : (Array.isArray((initialTickers as unknown as { tickers?: string[] })?.tickers) ? (initialTickers as unknown as { tickers: string[] }).tickers : ["SPY"]);
-    const [tickers, setTickers] = useState<string[]>(initialTickersArray || ["SPY"]);
+    const [tickers] = useState<string[]>(initialTickersArray || ["SPY"]);
     const [ticker, setTicker] = useState<string>(initialTicker || initialTickersArray?.[0] || "SPY");
     const [preds, setPreds] = useState<Prediction[]>(normalizePreds(initialPreds || []));
     const [history, setHistory] = useState<HistoryItem[]>(normalizeHistory(initialHistory || []));
@@ -52,7 +68,7 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
 
     const [startYear, setStartYear] = useState<string | "all">(() => (yearsFromData.length ? yearsFromData[0] : "all"));
     const [endYear, setEndYear] = useState<string | "all">(() => (yearsFromData.length ? yearsFromData[yearsFromData.length - 1] : "all"));
-    
+
     // Calendar date range selection
     const [startDate, setStartDate] = useState<Date | undefined>(undefined);
     const [endDate, setEndDate] = useState<Date | undefined>(undefined);
@@ -77,8 +93,28 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
                 fetch(`https://api-data-service-cb4vi2yjma-ew.a.run.app/predictions?ticker=${encodeURIComponent(t)}`).then((r) => r.json()),
                 fetch(`https://api-data-service-cb4vi2yjma-ew.a.run.app/history?ticker=${encodeURIComponent(t)}`).then((r) => r.json()),
             ]);
-            setPreds(normalizePreds(predR || []));
-            setHistory(normalizeHistory(histR || []));
+
+            const normalizedPreds = normalizePreds(predR || []);
+            const normalizedHistory = normalizeHistory(histR || []);
+
+            console.log(`📊 [${t}] API Response:`);
+            console.log(`  History: ${histR?.length || 0} raw → ${normalizedHistory.length} unique`);
+            console.log(`  Predictions: ${predR?.length || 0} raw → ${normalizedPreds.length} unique`);
+
+            if (normalizedHistory.length > 0) {
+                const firstHist = normalizedHistory[0].date;
+                const lastHist = normalizedHistory[normalizedHistory.length - 1].date;
+                console.log(`  History range: ${firstHist} → ${lastHist}`);
+            }
+
+            if (normalizedPreds.length > 0) {
+                const firstPred = normalizedPreds[0].date;
+                const lastPred = normalizedPreds[normalizedPreds.length - 1].date;
+                console.log(`  Predictions range: ${firstPred} → ${lastPred}`);
+            }
+
+            setPreds(normalizedPreds);
+            setHistory(normalizedHistory);
         } catch (e) {
             console.error(e);
         } finally {
@@ -95,18 +131,18 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
     // Filter functions by selected year range
     const inRange = (dateStr: string, s: string | "all", e: string | "all") => {
         if (!dateStr) return false;
-        
+
         // If using calendar dates, filter by actual dates
         if (useCalendar && (startDate || endDate)) {
             const dateParts = dateStr.split("-");
             if (dateParts.length < 3) return false;
             const itemDate = new Date(parseInt(dateParts[0]), parseInt(dateParts[1]) - 1, parseInt(dateParts[2]));
-            
+
             if (startDate && itemDate < startDate) return false;
             if (endDate && itemDate > endDate) return false;
             return true;
         }
-        
+
         // Otherwise use year-based filtering
         if (s === "all" && e === "all") return true;
         const y = dateStr.slice(0, 4);
@@ -119,8 +155,15 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
     const filteredHistory = history.filter((h) => inRange(h.date, startYear, endYear));
     const filteredPreds = preds.filter((p) => inRange(p.date, startYear, endYear));
 
+    // Debug filtering
+    React.useEffect(() => {
+        console.log(`Filtering: startYear=${startYear}, endYear=${endYear}, useCalendar=${useCalendar}`);
+        console.log(`Total history: ${history.length}, Filtered: ${filteredHistory.length}`);
+        console.log(`Total preds: ${preds.length}, Filtered: ${filteredPreds.length}`);
+    }, [history.length, filteredHistory.length, preds.length, filteredPreds.length, startYear, endYear, useCalendar]);
+
     // refs to graphs for exporting images
-    const historyGraphRef = useRef<HTMLDivElement | null>(null);
+    const historyGraphRef = useRef<HTMLDivElement>(null);
 
     // Preset buttons: 1Y, 5Y, All
     const latestYear = yearsFromData.length ? yearsFromData[yearsFromData.length - 1] : null;
@@ -142,7 +185,7 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
     }
 
     // Export CSV helper
-    function downloadCSV(rows: Array<Record<string, any>>, filename: string) {
+    function downloadCSV(rows: Array<Record<string, string | number | null>>, filename: string) {
         if (!rows || !rows.length) return;
         const keys = Object.keys(rows[0]);
         const csv = [keys.join(";")].concat(rows.map((r) => keys.map((k) => r[k]).join(";"))).join("\n");
@@ -156,8 +199,8 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
     }
 
     // Export chart PNG
-    function downloadChartImage(chartRef: React.RefObject<HTMLDivElement>, filename: string) {
-        const svg = chartRef.current?.querySelector("svg") as SVGElement;
+    function downloadChartImage(chartRef: React.RefObject<HTMLDivElement | null>, filename: string) {
+        const svg = chartRef.current?.querySelector("svg") as SVGElement | null;
         if (!svg) return;
 
         // Create canvas from SVG
@@ -194,7 +237,7 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
             <div className="space-y-3">
                 <div className="flex items-center gap-3">
                     <span className="text-sm font-medium">Periodo:</span>
-                    <Button 
+                    <Button
                         variant={useCalendar ? "default" : "outline"}
                         size="sm"
                         onClick={() => setUseCalendar(!useCalendar)}
@@ -224,9 +267,9 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
                                 </PopoverContent>
                             </Popover>
                         </div>
-                        
+
                         <span className="text-sm text-zinc-400">—</span>
-                        
+
                         <div className="flex items-center gap-2">
                             <span className="text-xs font-medium">Hasta:</span>
                             <Popover>
@@ -245,9 +288,9 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
                                 </PopoverContent>
                             </Popover>
                         </div>
-                        
-                        <Button 
-                            variant="ghost" 
+
+                        <Button
+                            variant="ghost"
                             size="sm"
                             onClick={() => {
                                 setStartDate(undefined);
@@ -278,12 +321,12 @@ export default function ClientTicker({ initialTickers, initialTicker, initialPre
                     <div className="flex items-center justify-between">
                         <h3 className="mb-2 text-sm font-semibold">Histórico y Predicciones (gráfico)</h3>
                         <div className="flex items-center gap-2">
-                            <button onClick={() => downloadChartImage(historyGraphRef as any, `${ticker}-combined.png`)} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">Export PNG</button>
+                            <button onClick={() => downloadChartImage(historyGraphRef, `${ticker}-combined.png`)} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">Export PNG</button>
                             <button onClick={() => downloadCSV(filteredHistory.map(h => ({ date: h.date, close: h.close })), `${ticker}-history.csv`)} className="rounded-md bg-zinc-900 px-2 py-1 text-xs text-white">Export CSV</button>
                         </div>
                     </div>
                     <div ref={historyGraphRef} className="w-full flex justify-center">
-                        <CustomGraph history={filteredHistory} predictions={filteredPreds} ticker={ticker}  />
+                        <CustomGraph history={filteredHistory} predictions={filteredPreds} ticker={ticker} />
                     </div>
                 </Card>
             </div>
