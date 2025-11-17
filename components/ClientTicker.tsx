@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import type { PredictionRaw, HistoryRaw, Prediction, HistoryItem } from "../types/api";
 import Select from "./ui/select";
-import Card from "./ui/card";
+import { Card } from "./ui/card";
 import CustomGraph from "./CustomGraph";
 import { Calendar } from "./ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
