@@ -7,7 +7,7 @@ import type {
   AllData,
 } from "../../types/api";
 
-const BASE = "https://api-data-service-cb4vi2yjma-ew.a.run.app";
+const BASE = String(process.env.API_BASE_URL);
 
 export async function fetchTickers(): Promise<string[]> {
   const res = await fetch(`${BASE}/tickers`, { cache: "no-store" });
